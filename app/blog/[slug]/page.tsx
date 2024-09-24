@@ -4,6 +4,7 @@ type Params = {
   };
 };
 
+
 export async function generateMetadata({ params }: Params) {
   return { title: `Post: ${params.slug}` };
 }
